@@ -94,3 +94,6 @@ __init__.py
 ## Automating Tasks Through Prgramming
 - *Scalability*: when more work is added to a system, the system can do whatever it need to get the work done
 
+### Pitfalls of Automation
+#### "Is the time and the effort needed to write the script worth the potential automation benefits?"
+- *Pareto Principle*: states 20% of the tasks that represents 80% of the work
