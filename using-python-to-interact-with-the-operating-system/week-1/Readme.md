@@ -59,5 +59,38 @@ Python Modules are written and posted on  Python Package Index (PyPI) by program
 
 ## Running Python Locally
 ### Interpreted Language x Compiled Language
+### Interpreted Language
+Programs written in interpreted language generally **rely on an intermediary program called an interpreter**. These programs use interpreters to execute the instructions specified in the code. 
+- A compiler is not needed in this process, what makes the development cycle for a program written in an interpreted language much faster
+- The code can be read by interpreters running on different operating systems without needing to make any additional changes. 
+- Interpreted languages **generally run slower than compiled ones***  
+*Examples: Python, Ruby, JavaScript, Bash and PowerShell*
+ 
+### Compiled Language
+- The source code is fed into a a compiler
+- The compiler translates the code into  a specific machine level language, **depending on the computer OS**   
+- After compiling, the computer can read and execute the machine level code directly  
+- The compiled program is **super fast to run**, but **the compilation process itself can take a bit of time** 
+*Examples of compiled programming languages: C, C++, Go and Rust*
 
+* Java and C# are languages that use a mixed approach.  
+### How to Run a Python Script
+### Linux Commands - nano editor
+*shebang*: specifies to the OS what command to use when running the script - in this case, we want to run the script using Python 3
+*cat*: shows the contents of a file on Linux (e.g. 'cat areas.py')
+*!/usr/bin/env python3*: tells the OS that we want to run the script using Python 3
+
+### Code Reuse
+e.g.:
+python 3> import areas> areas.triangle(3,5)  
+ls -l /usr/lib/python3/dist-packages/requests
+__init__.py
+
+### IDE - Integrated Development Environment
+- *Syntax highlighting*: the language we are writing our code in, and highlights the pieces of code that make up the syntax of the language
+- *Code completion*: automatically complete the names of the variables, functions and indentation spaces
+- *Doughnut*: calculate the area of a 2-D doughnut as the difference between two circles   
+
+## Automating Tasks Through Prgramming
+- *Scalability*: when more work is added to a system, the system can do whatever it need to get the work done
 
