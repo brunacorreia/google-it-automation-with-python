@@ -1,5 +1,13 @@
-# Using Python to Interact with the Operating System - Week 1
+# Using Python to Interact with the Operating System
 This course will teach how to use Python to perform system administration tasks and interact with a computer’s operating system. For some exercises the application called Qwiklabs is going to be used in a remote Linux virtual machine.
+
+# Week 1 - Getting Your Python On
+## Learning Objectives:
+- Have an understanding of the different operating systems
+- Utilize their Python environment and install additional Python modules, if needed
+- Run Python locally on their machines
+- Understand the benefits of automation but be aware of the pitfalls
+- Complete all assessments through Qwiklabs
 
 ## Course prerequisites
 - The basic Python syntax (if, for, while, defining functions, classes, and methods)
