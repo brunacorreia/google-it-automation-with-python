@@ -97,3 +97,14 @@ __init__.py
 ### Pitfalls of Automation
 #### "Is the time and the effort needed to write the script worth the potential automation benefits?"
 - *Pareto Principle*: states 20% of the tasks that represents 80% of the work
+- *Bit-rot*: the process of software falling out of step with the environment
+- *Avoiding silent fallures*: by building a method or notification into the automated systems
+- *Periodic tests*: needed to check in the behaviour of the automated systems to prevent further data corruption
+- *Forensic value*: it is important for automated processes to leave extensive logs so when errors occur they can be an extremely useful source of information when you are investigating an issue
+
+*Is is worth the time?* Check: https://xkcd.com/1205/
+
+### QWiklabs
+SSH: command that allows you to interact with remote Linux computers
+
+
